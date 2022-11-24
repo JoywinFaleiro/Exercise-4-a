@@ -1,0 +1,41 @@
+
+.table-container {
+   
+    margin: auto;
+    margin-top: 200px;
+    max-width: 1000px;
+    overflow-x: auto;
+    border: 1px solid #dddddd;
+}
+body{
+    background-color: rgb(237, 244, 245);
+}
+/* .wtable {
+ text-align: center;
+} */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th{
+    font-size: 18px;
+  }
+  .head{
+    width: 100px;
+  }
+  td{
+    font-size: 16px;
+  }
+  td, th {
+    text-align: center;
+    border-bottom: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+  
+    background-color: #ffffff;
+  }
